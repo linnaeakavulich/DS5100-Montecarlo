@@ -58,4 +58,26 @@ example_die1.show()
 ```
 
 ## Instantiating Game
+To instantiate a Game object, you must first create one or more Die objects. Pass the created dice to Game as a list
+
+```
+example_game = Game([example_die1, example_die1, example_die1])
+```
+
+This code will create a game with three six-sided dice. To roll these dice n=50 times, call
+
+```
+example_game.play(50)
+```
+
+This will roll your three example_die1 50 times and record the results of each roll in a dataframe. To see this dataframe call 
+
+```
+example_game = example_game.show()
+example_game
+```
+
+
+
+
 
