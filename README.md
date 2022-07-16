@@ -45,4 +45,17 @@ Once a Die has been created, you can change the weight of a face
 example_die2.change_weight('A', 2000)
 ```
 
-The above code will change the weight for face A to 2000. The default weight for all faces is 1.
+The above code will change the weight for face A to 2000. The default weight for all faces is 1. If desired, the instantiated Die can be rolled directly from the Die class by calling 
+
+```
+example_die1.roll_die(5)
+```
+
+This code will roll example_die1 five times and return a dataframe with the results. Please note that the Game class will allow you to roll multiple die objects at once. To see the die that has been created, along with the respective weights for each face, call:
+
+```
+example_die1.show()
+```
+
+## Instantiating Game
+
