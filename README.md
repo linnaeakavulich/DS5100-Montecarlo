@@ -77,6 +77,32 @@ example_game = example_game.show()
 example_game
 ```
 
+## Instantiating Analyzer
+To analyze the results of an instance of Game, pass it to the Analyzer class as
+
+```
+example_analysis = Analyzer(example_game)
+```
+
+A 'jackpot' is when a roll results in all the same face showing. Using example_game, this would manifest as a roll which results in three '1s' or three '2s' or three '3s' and so on. To determine the number of jackpots that occurred in your game
+
+```
+example_analysis.jackpot()
+```
+
+The above code will return an integer which is the number of jackpots in your game. To see the unique combinations of faces that occurred in your game 
+
+```
+example_analysis.combo()
+```
+
+To see how many times each face appeared in a given roll
+
+```
+example_analysis.faces_per_roll()
+```
+
+The above code returns a dataframe that catalogs the number of times each face appeared, roll-by-roll
 
 
 
