@@ -1,0 +1,13 @@
+test_6_jackpot (__main__.AnalyzerTestSuite) ... ok
+test_7_combo (__main__.AnalyzerTestSuite) ... ok
+test_8_faces_per_roll (__main__.AnalyzerTestSuite) ... ok
+test_1_change_weight (__main__.DieTestSuite) ... ok
+test_2_roll_die (__main__.DieTestSuite) ... ok
+test_3_show (__main__.DieTestSuite) ... ok
+test_4_play (__main__.GameTestSuite) ... ok
+test_5_show (__main__.GameTestSuite) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.105s
+
+OK
